@@ -24,7 +24,7 @@ class Holodex
 
   private
 
-  def encode_query(data)
+  def encode_query(**data)
     data.transform_keys!(&:to_s)
     data.transform_values! do |value|
       case value
