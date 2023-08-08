@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name     = 'holodex'
   s.license  = 'MIT'
-  s.version  = '2.0.2'
+  s.version  = '2.1.0'
   s.summary  = 'Wrapper for the Holodex API.'
   s.authors  = ['Akseluhreyter']
   s.files    = Dir['lib/**/*']
