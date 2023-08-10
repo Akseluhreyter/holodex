@@ -15,7 +15,7 @@ Ruby wrapper for the [Holodex API](https://docs.holodex.net/).
 - [Notes](#notes)
 
 ## Getting Started
-1. [Obtain an API key.](https://docs.holodex.net/#section/Getting-Started/Obtaining-API-Key).
+1. [Obtain an API key.](https://docs.holodex.net/#section/Getting-Started/Obtaining-API-Key)
 2. ``gem install holodex``
 
 ## Usage
