@@ -12,6 +12,7 @@ Ruby wrapper for the [Holodex API](https://docs.holodex.net/).
   - [List Channels](#list-channels)
   - [post-search-videoSearch](#post-search-videosearch)
   - [post-search-commentSearch](#post-search-commentsearch)
+- [Notes](#notes)
 
 ## Getting Started
 1. [Obtain an API key.](https://docs.holodex.net/#section/Getting-Started/Obtaining-API-Key).
