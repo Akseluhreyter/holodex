@@ -57,8 +57,8 @@ class Holodex
     parse(response)
   end
 
-  def post(path, **)
-    payload  = JSON.generate(**)
+  def post(path, **data)
+    payload  = JSON.generate(data)
     uri      = URI(BASE_API + path)
     response = Net::HTTP.post(uri, payload, @headers)
 
