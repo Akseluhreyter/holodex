@@ -85,5 +85,7 @@ holodex.comment_search(org: ['Hololive'], comment: ["let's go"], limit: 1)
   
   For example, if one didn't want any response parsing or exception raising done at all:
   ```ruby
-  def parse(response) = response.body
+  class Holodex
+    private def parse(response) = response.body
+  end
   ```
